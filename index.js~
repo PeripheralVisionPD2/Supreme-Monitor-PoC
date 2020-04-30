@@ -9,8 +9,8 @@ const headers = {
 	Pragma: "no-cache",
 	"User-Agent":
 		"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.122 Safari/537.36",
-	"X-Requested-With": "XMLHttpRequest",
-}
+	"X-Requested-With": "XMLHttpRequest"
+};
 let old_prods = [];
 let new_prods = [];
 let first_run = true;
@@ -149,4 +149,3 @@ async function monitor() {
 setInterval(() => {
 	monitor()();
 }, 3000);
-console.log(get_time())

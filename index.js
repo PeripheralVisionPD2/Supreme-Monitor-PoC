@@ -147,5 +147,5 @@ async function monitor() {
 	}
 }
 setInterval(() => {
-	monitor()();
+	monitor();
 }, 3000);
